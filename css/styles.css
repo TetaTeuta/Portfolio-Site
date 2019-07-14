@@ -46,7 +46,6 @@ button,
   color: var(--text-color);
   text-decoration: none;
   padding: 10px;
-  
   border-radius: 1px;
   border-style: groove;
   transition: 0.4s opacity, 0.5s;
@@ -61,7 +60,6 @@ button,
   color: var(--text-color);
   text-decoration: none;
   padding: 10px;
-  border-bottom: 3px solid #010101;
   border-radius: 1px;
   border-style: groove;
   transition: 0.4s opacity, 0.5s;
