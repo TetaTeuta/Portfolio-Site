@@ -46,7 +46,6 @@ button,
   color: var(--text-color);
   text-decoration: none;
   padding: 10px;
-  border-radius: 1px;
   border-style: groove;
   transition: 0.4s opacity, 0.5s;
 }
@@ -59,9 +58,9 @@ button,
   background-color: var(--primary-color);
   color: var(--text-color);
   text-decoration: none;
-  padding: 10px;
-  border-radius: 3px;
-  border-style: groove;
+  padding: 5px;
+  border-radius: 1px;
+  border-style: outset;
   transition: 0.4s opacity, 0.5s;
 }
 
@@ -73,7 +72,7 @@ button:hover, button:focus,
 .work-shortcut:focus {
   cursor: pointer;
   opacity: 0.7;
-  font-size: var(--text-font-size);
+  font-size: 15px;
   text-decoration: none;
 }
 
@@ -262,6 +261,7 @@ button:hover, button:focus,
 .work-shortcut {
 
   margin-left: 240px;
+
 }
 
 @keyframes cloud-move-reverse {
