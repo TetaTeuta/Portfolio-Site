@@ -53,6 +53,7 @@ button,
 }
 
 .work-shortcut {
+  text-align: center;
   font-size: var(--button-font-size);
   border: none;
   display: block;
