@@ -62,13 +62,19 @@ button,
   padding: 10px;
   border-radius: 1px;
   border-style: groove;
-  transition: 0.4s opacity, 0.5s;
+  transition: 0.1s opacity, 0.5s;
 }
 
 
 button:hover, button:focus,
 .button:hover,
-.button:focus,
+.button:focus {
+  cursor: pointer;
+  opacity: 0.7;
+  font-size: var(--text-font-size);
+  text-decoration: none;
+}
+
 .work-shortcut:hover,
 .work-shortcut:focus {
   cursor: pointer;
@@ -114,18 +120,20 @@ button:hover, button:focus,
 
 
 #github {
-  width: 56px;
-  margin-left: 10px;
+  width: 4rem;
+  margin: auto;
   cursor: pointer;
 }
 
 #twitter {
-  width: 60px;
+  width: 4rem;
+  margin: auto;
   cursor: pointer;
 }
 
 #linkedin {
-  width: 60px;
+  width: 4rem;
+  margin: auto;
   cursor: pointer;
 }
 
