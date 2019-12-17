@@ -15,7 +15,7 @@ Secondary Color (Gainsboro): #DCDCDC;
   --text-color: #000;
   --column-color: darkgray;
   --text-font-size: 16px;
-  --button-font-size: 14px;
+  /* --button-font-size: 14px; */
 }
 
 
@@ -95,29 +95,24 @@ button:hover, button:focus,
 .work-shortcut:focus {
   cursor: pointer;
   opacity: 0.7;
-  font-size: 13px;
   text-decoration: none;
   box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
   
 }
 
-.button__secondary {
+ #button__submit {
+  font-size: var(--button-font-size);
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
   background-color: var(--primary-color);
   color: var(--text-color);
-}
-
-#button__submit {
-  font-size: var(--button-font-size);
-  border: none;
-  font-family: inherit;
-  background-color: var(--text-color);
-  color: var(--primary-color);
   text-decoration: none;
-  padding: 5px;
-  border-radius: 5px;
-  border-bottom: 3px solid rgba(0, 0, 0, 0.3);
-  transition: 0.4s opacity, 0.5s;
-}
+  padding: 10px;
+  border-radius: 1%;
+  transition: 0.1s opacity, 0.5s;
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
+} 
 
 #button__submit:hover, #button__submit:focus {
   background-color: var(--primary-color);
@@ -213,7 +208,7 @@ button:hover, button:focus,
   transition: all 0.7s;
   opacity: 1;
   border-radius: 1px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  
 }
 
 /* Grid fallback*/
