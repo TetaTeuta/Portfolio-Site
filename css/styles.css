@@ -244,7 +244,8 @@ button:hover, button:focus,
   cursor: pointer;
   opacity: 0.7;
   font-size: 14px;
-  transition: 0.4s opacity, 0.7s;
+  transform: scale(1.02);
+  transition: transform 0.4s ease;
 }
 
 .about__page {
