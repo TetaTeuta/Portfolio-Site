@@ -136,6 +136,24 @@ button:hover, button:focus,
   */
 }
 
+#contact-form{
+  margin: 1rem;
+  text-align: center;
+}
+
+/* .formDiv{
+
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.contact{
+  margin: 1rem;
+  text-align: center;
+}
+
 
 #github,
 #linkedin
