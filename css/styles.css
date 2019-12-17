@@ -53,14 +53,12 @@ button,
 
 .work-shortcut {
   font-size: var(--button-font-size);
-  border: none;
-  display: inline-block;
+  margin: auto;
   font-family: inherit;
   background-color: var(--primary-color);
   color: var(--text-color);
   text-decoration: none;
   padding: 10px;
-  border-radius: 1px;
   border-style: groove;
   transition: 0.1s opacity, 0.5s;
 }
