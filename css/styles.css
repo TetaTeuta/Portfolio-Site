@@ -77,9 +77,9 @@ button:hover, button:focus,
 .work-shortcut:focus {
   cursor: pointer;
   opacity: 0.7;
-  font-size: 15px;
+  font-size: 13px;
   text-decoration: none;
-  border-radius: 3px;
+  
 }
 
 .button__secondary {
