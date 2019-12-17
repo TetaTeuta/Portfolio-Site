@@ -37,6 +37,10 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
+h1{
+  margin: 1rem;
+}
+
 button,
 .button {
   font-size: var(--button-font-size);
@@ -53,7 +57,6 @@ button,
 }
 
 .work-shortcut {
-  text-align: center;
   font-size: var(--button-font-size);
   margin: auto;
   font-family: inherit;
@@ -176,11 +179,8 @@ button:hover, button:focus,
   display: inline;
   text-decoration: none;
   color: var(--column-color);
-  top: 0px;
-  left: 0px;
   padding: 10px;
   transition: all 0.7s;
-  transform: scale(0.8);
   opacity: 1;
   border-radius: 1px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
@@ -188,8 +188,12 @@ button:hover, button:focus,
 
 /* Grid fallback*/
 .grid__item {
+  margin: 1rem;
   display: inline-block;
   width: 33%;
+  border-radius: 2%;
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
+
 }
 
 .grid {
@@ -237,11 +241,6 @@ button:hover, button:focus,
   animation-timing-function: linear;
 }
 
-/* animation shorter:
-.sun {
-  animation: 4s color-change infinite alternate linear;
-}
-*/
 .cloud-front {
   animation-duration: 30s;
   animation-name: cloud-move;
@@ -250,10 +249,6 @@ button:hover, button:focus,
   animation-timing-function: linear;
 }
 
-/* animation shorter:
-.cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
-} */
 .cloud-back {
   animation-duration: 34s;
   animation-name: cloud-move-reverse;
