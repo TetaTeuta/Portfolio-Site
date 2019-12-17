@@ -122,19 +122,9 @@ button:hover, button:focus,
 }
 
 
-#github {
-  width: 4rem;
-  margin: auto;
-  cursor: pointer;
-}
-
-#twitter {
-  width: 4rem;
-  margin: auto;
-  cursor: pointer;
-}
-
-#linkedin {
+#github,
+#linkedin
+ {
   width: 4rem;
   margin: auto;
   cursor: pointer;
