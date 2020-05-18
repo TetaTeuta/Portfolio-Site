@@ -21,11 +21,21 @@ Secondary Color (Gainsboro): #DCDCDC;
 
 body {
   background-color: var(--primary-color);
-  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: var(--text-font-size);
   line-height: 1.6;
-  text-align: left;
+   font-family: "Montserrat";
+  /*font-size: 3vw;
+  line-height: 1.4em;
+  margin: 0 2em;
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+  font-feature-settings: "kern" on;
+  -moz-font-feature-settings: "kern" on;
+  -webkit-font-feature-settings: "kern" on;
+  -ms-font-feature-settings: "kern" on;
+  -o-font-feature-settings: "kern" on;
+  height: 100vh;*/
 }
 
 
@@ -48,6 +58,49 @@ h1 {
 .box1 {
   text-align: center;
   
+}
+
+
+.ime {
+  white-space: nowrap;
+  text-transform: uppercase;
+  transition: letter-spacing 1500ms ease-in-out;
+  font-family: "Oswald";
+}
+.ime:hover {
+  letter-spacing: 5px;
+}
+
+.letter {
+  font-variation-settings: "wght" 100, "wdth" 100;
+  transition: font-variation-settings 1500ms ease-in;
+}
+.letter:hover {
+}
+
+.ime:hover .m,
+.ime:hover .r {
+  font-variation-settings: "wght" 300, "wdth" 100;
+}
+
+
+.ime:hover .i,
+.ime:hover .e {
+  font-variation-settings: "wght" 500, "wdth" 100;
+}
+
+
+.ime:hover .n,
+.ime:hover .d,
+.ime:hover .t {
+  font-variation-settings: "wght" 700, "wdth" 100;
+}
+
+
+.ime:hover .h,
+.ime:hover .u,
+.ime:hover .n {
+  font-variation-settings: "wght" 900, "wdth" 100;
 }
 
 button,
