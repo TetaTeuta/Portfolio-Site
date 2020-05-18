@@ -199,8 +199,12 @@ button:hover, button:focus,
 } */
 
 .contact{
-  margin: 1rem;
-  text-align: center;
+  width: 22%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  text-align: left;
 }
 
 
