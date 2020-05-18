@@ -310,6 +310,15 @@ button:hover, button:focus,
   width: 100%;
   text-align: center;
 }
+.info_text, h3
+{
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  text-align: left;
+  }
 
 .berlin-illustration {
   margin: 20px;
