@@ -178,6 +178,8 @@ button:hover, button:focus,
 }
 
 .profile__portrait {
+  margin-top: 3%;
+  margin-left: 5%;
   display: block;
   float: top;
   max-width: 150px;
