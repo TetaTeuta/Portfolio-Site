@@ -10,43 +10,31 @@ Secondary Color (Gainsboro): #DCDCDC;
 }
 
 :root {
-  --primary-color: #F5F5F5;
-  --secondary-color: #DCDCDC;
+  --primary-color: #f5f5f5;
+  --secondary-color: #dcdcdc;
   --text-color: #000;
   --column-color: darkgray;
   --text-font-size: 16px;
-  /* --button-font-size: 14px; */
 }
-
 
 body {
   background-color: var(--primary-color);
   font-weight: 400;
   font-size: var(--text-font-size);
   line-height: 1.6;
-   font-family: "Montserrat";
-  /*font-size: 3vw;
-  line-height: 1.4em;
-  margin: 0 2em;
-  background-color: rgba(255, 255, 255, 1);
-  color: black;
-  font-feature-settings: "kern" on;
-  -moz-font-feature-settings: "kern" on;
-  -webkit-font-feature-settings: "kern" on;
-  -ms-font-feature-settings: "kern" on;
-  -o-font-feature-settings: "kern" on;
-  height: 100vh;*/
+  font-family: "Montserrat";
 }
-
 
 a {
   color: var(--text-color);
-}
-
-a:hover, a:focus {
   text-decoration: none;
 }
-.title{
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+.title {
   justify-content: center;
 }
 
@@ -57,9 +45,7 @@ h1 {
 
 .box1 {
   text-align: center;
-  
 }
-
 
 .ime {
   white-space: nowrap;
@@ -85,19 +71,16 @@ h1 {
   font-variation-settings: "wght" 300, "wdth" 100;
 }
 
-
 .ime:hover .i,
 .ime:hover .e {
   font-variation-settings: "wght" 500, "wdth" 100;
 }
-
 
 .ime:hover .n,
 .ime:hover .d,
 .ime:hover .t {
   font-variation-settings: "wght" 700, "wdth" 100;
 }
-
 
 .ime:hover .h,
 .ime:hover .u,
@@ -137,8 +120,8 @@ button,
   box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
 }
 
-
-button:hover, button:focus,
+button:hover,
+button:focus,
 .button:hover,
 .button:focus {
   cursor: pointer;
@@ -153,10 +136,9 @@ button:hover, button:focus,
   opacity: 0.7;
   text-decoration: none;
   box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
-  
 }
 
- #button__submit {
+#button__submit {
   font-size: var(--button-font-size);
   align-items: center;
   justify-content: center;
@@ -168,9 +150,10 @@ button:hover, button:focus,
   border-radius: 1%;
   transition: 0.1s opacity, 0.5s;
   box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
-} 
+}
 
-#button__submit:hover, #button__submit:focus {
+#button__submit:hover,
+#button__submit:focus {
   background-color: var(--primary-color);
   color: var(--text-color);
   cursor: pointer;
@@ -184,12 +167,9 @@ button:hover, button:focus,
   float: top;
   max-width: 150px;
   border-radius: 50%;
-  /*
-  puts circle around the photo
-  */
 }
 
-#contact-form{
+#contact-form {
   margin: 1rem;
   text-align: center;
 }
@@ -202,7 +182,7 @@ button:hover, button:focus,
   justify-content: center;
 } */
 
-.contact{
+.contact {
   width: 22%;
   height: auto;
   margin: 0 auto;
@@ -211,10 +191,8 @@ button:hover, button:focus,
   text-align: left;
 }
 
-
 #github,
-#linkedin
- {
+#linkedin {
   width: 4rem;
   margin: auto;
   cursor: pointer;
@@ -272,7 +250,6 @@ button:hover, button:focus,
   transition: all 0.7s;
   opacity: 1;
   border-radius: 1px;
-  
 }
 
 .prsc {
@@ -286,7 +263,6 @@ button:hover, button:focus,
   width: 33%;
   border-radius: 2%;
   box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
-
 }
 
 .grid {
@@ -320,15 +296,15 @@ button:hover, button:focus,
   width: 100%;
   text-align: center;
 }
-.info_text, h3
-{
+.info_text,
+h3 {
   width: 50%;
   height: auto;
   margin: 0 auto;
   padding: 10px;
   position: relative;
   text-align: left;
-  }
+}
 
 .berlin-illustration {
   margin: 20px;
@@ -359,8 +335,6 @@ button:hover, button:focus,
   animation-direction: alternate;
   animation-timing-function: linear;
 }
-
-
 
 @keyframes cloud-move-reverse {
   from {
